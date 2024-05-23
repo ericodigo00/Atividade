@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Dados</title>
+</head>
+<link rel="stylesheet" href="index.css">
+
+<body>
+
+    <div class="inicio">
+        <h1>BANCO DE DADOS</h1>
+    </div>
+    <br><br><br>
+    <div class="ass1">
+        <h2>O QUE É BANCO DE DADOS?</h2>
+        <br>
+        <div class="img1">
+            <img src="/img1.jpg" alt="" height="500">
+        </div>
+    </div>
+    <br>
+    <div class="texto1">
+        <p>Um banco de dados é uma coleção organizada de informações - ou dados - estruturadas, normalmente armazenadas eletronicamente em um sistema de computador. <br> Um banco de dados é geralmente controlado por um sistema de gerenciamento de banco de
+            dados (DBMS). <br> Juntos, os dados e o DBMS, juntamente com os aplicativos associados a eles, são chamados de sistema de banco de dados, geralmente abreviados para apenas banco de dados. <br> Os dados nos tipos mais comuns de bancos de dados
+            em operação atualmente são modelados em linhas e colunas em uma série de tabelas para tornar o processamento e a consulta de dados eficientes. <br> Os dados podem ser facilmente acessados, gerenciados, modificados, atualizados, controlados
+            e organizados. <br> A maioria dos bancos de dados usa a linguagem de consulta estruturada (SQL) para escrever e consultar dados.
+        </p>
+    </div>
+
+    <br><br><br>
+    <div class="ass2">
+        <h1>OS TIPOS DE BANCO DE DADOS</h1>
+    </div>
+    <br><br>
+    <div class="texto2">
+        <ul>
+            <p>• Banco de Dados Relacional (RDBMS): Este é o tipo mais comum de banco de dados. Os dados são organizados em tabelas com linhas e colunas, e a relação entre os dados é estabelecida por meio de chaves primárias e estrangeiras. Exemplos populares
+                incluem MySQL, PostgreSQL, Oracle e Microsoft SQL Server. <br> • Banco de Dados NoSQL: Bancos de dados NoSQL são projetados para lidar com dados não estruturados, semiestruturados ou altamente variáveis. Eles podem ser baseados em documentos
+                (como o MongoDB), em colunas (como o Apache Cassandra), em gráficos (como o Neo4j) ou em chave-valor (como o Redis). <br> • Banco de Dados em Memória: Esses bancos de dados armazenam dados na memória principal do sistema para acesso ultra-rápido.
+                Exemplos incluem Redis, Memcached e algumas opções em bancos de dados relacionais que suportam armazenamento em memória. <br> • Banco de Dados de Gráficos: Projetados para armazenar e consultar dados relacionais complexos, esses bancos
+                de dados são eficazes para análises de rede e relações entre entidades. O Neo4j é um exemplo popular de banco de dados de gráficos. <br> • Banco de Dados em Nuvem: Bancos de dados hospedados na nuvem, que podem ser gerenciados por provedores
+                de serviços em nuvem, como Amazon Web Services (AWS), Microsoft Azure ou Google Cloud. Exemplos incluem Amazon RDS, Azure SQL Database e Google Cloud SQL. <br> • Banco de Dados de Coluna: Esses bancos de dados armazenam dados em formato
+                de coluna em vez de linhas, o que os torna eficientes para consultas analíticas. O Apache Cassandra é um exemplo de banco de dados de coluna. <br> • Banco de Dados de Tempo Real: Projetados para processamento em tempo real e análise de
+                fluxos de dados em alta velocidade. Exemplos incluem Apache Kafka e Apache Flink. <br> • Banco de Dados de Séries Temporais: Especializados em armazenar e consultar dados de séries temporais, comumente usados em IoT e monitoramento. O
+                InfluxDB é um exemplo popular. <br> • Banco de Dados Distribuído: Projetados para lidar com grandes volumes de dados distribuídos em vários servidores ou nós. O Hadoop HDFS e o HBase são exemplos de bancos de dados distribuídos. <br> •
+                Banco de Dados de Texto Completo: Projetados para pesquisa e consulta de texto completo em grandes volumes de documentos. O Elasticsearch e o Solr são exemplos populares. <br> • Banco de Dados Blockchain: Usados para armazenar registros
+                imutáveis e descentralizados. O Bitcoin e o Ethereum são exemplos de blockchains com recursos de banco de dados. <br></p>
+        </ul>
+    </div>
+    <br><br><br>
+    <div class="ass3">
+        <h1>QUAIS SGBDs EXISTEM ?</h1>
+    </div>
+    <br><br><br>
+    <div class="texto3">
+        <ul>
+            <p>•MongoDB <br> •Neo4j <br> •Apache Cassandra <br> •Redis <br> •PostgreSQL <br> •CouchDB <br> •Firebird <br> •HSQLDB <br> •IBM DB2 <br> •IBM Informix <br> •mSQL <br> •MySQL <br> •MariaDB <br> •Oracle <br> •SQL-Server <br> •TinySQL <br> •ZODB
+                <br> •JADE <br> •Sybase
+                <br> •Microsoft Access (Alguns o consideram SGBD mas é um SGBDR) <br> •Microsoft Visual Foxpro <br>
+            </p>
+        </ul>
+    </div>
+    <br><br><br>
+    <div class="ass4">
+        <h1>A DIFERENÇA D DADOS E INFORMAÇÕES</h1>
+    </div>
+    <br><br><br>
+    <div class="texto4">
+        <p>Dados não são específicos, ao contrário da informação, que é um significado detalhado a partir do trabalho com elementos mais brutos. As informações, em outras palavras, são dados trabalhados para agregar valor ao negócio. </p>
+    </div>
+    <br><br><br>
+    <div class="ass5">
+        <h1>TIPOS DE MODELOS DE DADOS</h1>
+    </div>
+    <br><br><br>
+    <div class="texto4">
+        <p>Um modelo de banco de dados é, basicamente, um tipo de estrutura de dados que determina a maneira como os dados são armazenados, organizados e manipulados dentro de um banco de dados. Esta estrutura é fundamental, pois influencia diretamente na
+            forma como os dados podem ser acessados e oferecidos aos usuários. Além disso, o modelo escolhido afeta o desempenho do banco de dados, sua facilidade de uso e até a sua capacidade de escalar e se adaptar às necessidades futuras. Existem diversos
+            modelos de banco de dados, cada um projetado com características específicas para atender a diferentes requisitos e cenários de uso. Essa gama de modelos disponíveis permite que desenvolvedores e organizações selecionem o mais adequado para
+            suas aplicações, maximizando assim a eficiência e a eficácia na gestão de seus dados. A escolha do modelo certo é decisiva, pois afeta desde o desenvolvimento inicial do projeto até a sua manutenção e expansão a longo prazo. A importância
+            de se escolher o modelo de banco de dados mais adequado para cada projeto vai além da mera organização dos dados. Trata-se de uma decisão estratégica que pode determinar o sucesso ou fracasso de aplicações, sistemas e até mesmo de empresas
+            inteiras. A escolha certa facilita o processamento e a análise dos dados, enquanto uma escolha inadequada pode levar a atrasos, custos adicionais e obstáculos técnicos difíceis de superar. Em suma, compreender os modelos de banco de dados
+            e suas respectivas aplicabilidades é essencial para qualquer profissional envolvido na criação, na gestão e na análise de sistemas informacionais. É esse conhecimento que possibilita a construção de soluções robustas, escaláveis e alinhadas
+            às demandas específicas de cada projeto.</p>
+    </div>
+    <br><br><br>
+    <div class="ass5">
+        <h1>O QUE É SQL?</h1>
+    </div>
+    <br><br><br>
+    <div class="texto4">
+        <p>A Linguagem de consulta estruturada (SQL) é uma linguagem de programação para armazenar e processar informações em um banco de dados relacional. Um banco de dados relacional armazena informações em formato tabular, com linhas e colunas representando
+            diferentes atributos de dados e as várias relações entre os valores dos dados. Você pode usar instruções SQL para armazenar, atualizar, remover, pesquisar e recuperar informações do banco de dados. Também pode usar SQL para manter e otimizar
+            a performance do banco de dados.</p>
+    </div>
+    <br><br><br>
+    <div class="ass5">
+        <h1>O QUE SÃO TABELAS EM UM BANCO DE DADOS?</h1>
+    </div>
+    <br><br><br>
+    <div class="texto4">
+        <p>Uma tabela em banco de dados é um tipo de modelagem de dados onde se armazena uma informação coletada por um sistema. Ou seja, são objetos ou estruturas que contêm os dados organizados em linhas e colunas. Cada linha representa um registro único,
+            e cada coluna um campo dentro do registro.</p>
+    </div>
+    <br><br><br>
+    <div class="ass5">
+        <h1>O QUE É UMA CHAVE PRIMÁRIA NO BANCO D DADOS?</h1>
+    </div>
+    <br><br><br>
+    <div class="texto4">
+        <p>Chaves primárias (em inglês, Primary keys ou "PK"), sob o ponto de vista de um banco de dados relacional, referem-se aos conjuntos de um ou mais campos, cujos valores, considerando a combinação de valores em caso de mais de uma chave primária,
+            nunca se repetem na mesma tabela e, desta forma, podem ser usadas como um índice de referência para criar relacionamentos com as demais tabela do banco de dados (daí vem o nome banco de dados relacional). Portanto, uma chave primária nunca
+            pode ter valor nulo, nem repetição. <br><br> Simplificando, quando a chave primária é simples, ou seja, é formada por um único campo da tabela, esse campo não pode ter dois ou mais registros de mesmo valor e também não pode conter nenhum registro
+            nulo. Se a chave primária é composta, ou seja, formada por mais de um campo, os valores de cada campo podem se repetir, mas nunca a combinação desses valores. Exemplo: a tabela 'Livros_Autores' tem como chave primária (cod_livro, cod_autor).
+            Podem existir nessa tabela os registros: <br><br> (5, 9); <br> (5, 10); <br> (4, 9); <br> (9, 5); <br> mas não podem existir dois registros (5, 9).</p>
+    </div>
+    <br><br><br>
+    <div class="ass5">
+        <h1>O QUE É UMA CHAVE ESTRANGEIRA EM BANCO DE DADOS?</h1>
+    </div>
+    <br><br><br>
+    <div class="texto4">
+        <p>Uma chave estrangeira é um campo, que aponta para a chave primária de outra tabela ou da mesma tabela. Ou seja, passa a existir uma relação entre duplas de duas tabelas ou de uma única tabela. A finalidade da chave estrangeira é garantir a integridade
+            dos dados referenciais, pois apenas serão permitidos valores que supostamente vão aparecer na base de dados. <br> Esse tipo de atributo não permite exclusão, modificação ou inserção de dados em tabelas que estejam dependentes umas das outras("foreign
+            key"), o que requer modificadores especiais, como cascade, por exemplo. Isso também exige uma maior atenção do administrador da base de dados, quanto à própria manipulação dos dados.</p>
+    </div>
+    <br><br><br>
+    <div class="ass5">
+        <h1>O QUE É NORMALIZAÇÃO DE BANCO DE DADOS?</h1>
+    </div>
+    <br><br><br>
+    <div class="texto4">
+        <p>Normalização de banco de dados é um conjunto de regras que visa, principalmente, a organização de um projeto de banco de dados para reduzir a redundância de dados, aumentar a integridade de dados e o desempenho. Para normalizar o banco de dados,
+            deve-se examinar as colunas (atributos) de uma entidade e as relações entre entidades (tabelas), com o objetivo de se evitar anomalias observadas na inclusão, exclusão e alteração de registros.
+            <br><br> Atualmente, muitos sistemas de informação ainda não utilizam banco de dados relacionais, sendo esses chamados de sistemas legados. Os dados desses sistemas são armazenados em arquivos de linguagens de terceira geração, como COBOL
+            ou BASIC, ou então, em banco de dados da era pré-relacional.</p>
+    </div>
+    <br><br><br>
+    <div class="ass5">
+        <h1>AS DIFERÊNTES FORMAS NORMAIS EM UM BANCO DE DADOS</h1>
+    </div>
+    <br><br><br>
+    <div class="texto3">
+        <p>Inicialmente, são definidos todos os atributos do documento, que estão relacionados a uma entidade principal, atribuindo uma chave primária. Feito isso, partimos para a análise do documento de acordo com as formas normais a seguir:
+            <br><br> •Primeira Forma Normal (ou 1FN). Nesta forma os atributos precisam ser atômicos, o que significa que as tabelas não podem ter valores repetidos e nem atributos possuindo mais de um valor. Exemplo: CLIENTE = {ID + ENDEREÇO + TELEFONES}.
+            Porém, uma pessoa poderá ter mais de um número de telefone, sendo assim o atributo "TELEFONES" é multivalorado. Para normalizar, é necessário: Identificar a chave primária e também a coluna que possui dados repetidos (nesse exemplo "TELEFONES")
+            e removê-los; Construir uma outra tabela com o atributo em questão, no caso "TELEFONES". Mas não se esquecendo de fazer uma relação entre as duas tabelas: CLIENTE = {ID + ENDEREÇO} e TELEFONE (nova tabela) = {CLIENTE_ID (chave estrangeira)
+            + TELEFONE}. <br><br> •Segunda Forma Normal (ou 2FN). Primeiramente, para estar na 2FN é preciso estar também na 1FN. 2FN define que os atributos normais, ou seja, os não chave, devem depender unicamente da chave primária da tabela. Assim
+            como as colunas da tabela que não são dependentes dessa chave devem ser removidas da tabela principal e cria-se uma nova tabela utilizando esses dados. Exemplo: PROFESSOR_CURSO = {ID_PROF + ID_CURSO + SALARIO + DESCRICAO_CURSO} Como podemos
+            observar, o atributo "DESCRICAO_CURSO" não depende unicamente da chave primária "ID_PROF", mas sim somente da chave "ID_CURSO". Para normalizar, é necessário: Identificar os dados não dependentes da chave primária (nesse exemplo "DESCRICAO_CURSO")
+            e removê-los; Construir uma nova tabela com os dados em questão: PROFESSOR_CURSO = {ID_PROF + ID_CURSO + SALARIO} e CURSOS (nova tabela) = {ID_CURSO + DESCRICAO_CURSO}. <br><br> •Terceira Forma Normal (ou 3FN). Assim como para estar na 2FN
+            é preciso estar na 1FN, para estar na 3FN é preciso estar também na 2FN. 3FN define que todos os atributos dessa tabela devem ser funcionalmente independentes uns dos outros, ao mesmo tempo que devem ser dependentes exclusivamente da chave
+            primária da tabela. 3FN foi projetada para melhorar o desempenho de processamento dos banco de dados e minimizar os custos de armazenamento. Exemplo: FUNCIONARIO = {ID + NOME + VALOR_SALARIO + VALOR_FGTS}. Como sabemos o valor do FGTS é proporcional
+            ao salário, logo o atributo normal "VALOR_FGTS" é dependente do também atributo normal "VALOR_SALARIO". Para normalizar, é necessário: Identificar os dados dependentes de outros (nesse exemplo "VALOR_FGTS"); Removê-los da tabela. Esses atributos
+            poderiam ser definitivamente excluídos -- e deixando para a camada de negócio a responsabilidade pelo seu cálculo -- ou até ser movidos para uma nova tabela e referenciar a principal ("FUNCIONARIO"). Forma Normal de Boyce-Codd (ou BCNF) requer
+            que não exista nenhuma dependência funcional não trivial de atributos em algo mais do que um superconjunto de uma chave candidata. Neste estágio, todos os atributos são dependentes de uma chave, de uma chave inteira e de nada mais que uma
+            chave (excluindo dependências triviais, como A → A); <br><br> •Quarta Forma Normal (ou 4FN) requer que não exista nenhuma dependência multi-valorada não trivial de conjuntos de atributo em algo mais de que um superconjunto de uma chave candidata;
+            <br><br> •Quinta Forma Normal (ou 5FN ou PJ/NF) requer que não exista dependências de joins (associações) não triviais que não venham de restrições chave; Domain-Key Normal Form (ou DK/NF) requer que todas as restrições sigam os domínios e
+            restrições chave. Visão Formal</p>
+    </div>
+    <br><br><br>
+    <div class="ass5">
+        <h1>O QUE É UM BANCO DE DADOS RELACIONAL?</h1>
+    </div>
+    <br><br><br>
+    <div class="texto4">
+        <p>Um Banco de Dados Relacional segue o Modelo Relacional.
+            <br><br> A arquitetura de um banco de dados relacional pode ser descrita de maneira informal ou formal. Na descrição informal estamos preocupados com aspectos práticos da utilização e usamos os termos tabela, linha e coluna. Na descrição formal
+            estamos preocupados com a semântica formal do modelo e usamos termos como relação <strong>(tabela)</strong>, <strong>tupla(linhas)</strong> e <strong>atributo(coluna)</strong>.</p>
+    </div>
+    <br><br><br>
+
+    <div class="ass5">
+        <h1>BANCO DE DADOS NÃO RELACIONAL</h1>
+
+    </div>
+    <br><br><br>
+    <div class="texto4">
+        <p>O banco de dados não relacional é um banco de dados que possibilita a flexibilidade na hora de armazenar os dados, já que não se limita a tabelas com linhas e colunas, como o banco de dados relacional. Esse tipo de banco de dados usa um modelo
+            de armazenamento otimizado, que é adaptável para o requisito específico de cada dado, por exemplo: possibilita que os dados sejam armazenados como chave/valor simples; documento no formato JSON (JavaScript Object Notation) ou até mesmo em
+            forma de gráfico, composto de bordas e vértices.</p>
+    </div>
+    <br><br><br>
+    <div class="ass5">
+        <h1>O QUE É UM BANCO DE DADOS DESTRIBUIDO?</h1>
+        <br><br><br>
+        <img src="/Sistema distribuido.jpg" alt="">
+    </div>
+    <br><br><br>
+    <div class="texto4">
+        <p><strong>Banco de dados distribuído (BDD) é um banco de dados no qual nem todos os dispositivos de armazenamento estão conectados a um processador comum. </strong> Pode ser armazenado em vários computadores, localizados no mesmo local físico, ou
+            podem ser dispersos por uma rede de computadores interconectados. Ao contrário dos sistemas paralelos, nos quais os processadores são fortemente acoplados e constituem um único sistema de banco de dados, um sistema de banco de dados distribuído
+            consiste em sites fracamente acoplados que não compartilham componentes físicos.
+            <br><br> Segundo Elmasri (2010)[1], um Banco de Dados é uma coleção de dados relacionados. Dados são fatos conhecidos que podem ser registrados e possuem significado implícito. Ou seja, um banco de dados é um conjunto de dados interligados
+            que tem por objetivo atender os usuários.</p>
+    </div>
+    <br><br><br>
+    <div class="ass5">
+        <h1>VANTAGENS E DESVANTAGENS DO USO DE BANCO DE DADOS</h1>
+    </div>
+    <br><br><br>
+    <div class="texto4">
+        <p>As vantagens incluem armazenamento fácil de grandes quantidades de dados, recuperação rápida de informações e segurança de dados. As desvantagens são a complexidade dos sistemas, custos de software e hardware, e custos adicionais de treinamento.</p>
+    </div>
+    <br><br><br>
+    <footer>
+        <p>CONHECENDO MAIS SOBRE BANCO DE DADOS</p>
+    </footer>
+</body>
+
+</html>
